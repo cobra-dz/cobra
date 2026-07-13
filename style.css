@@ -176,5 +176,44 @@ font-size:38px;
 .hero p{
 font-size:18px;
 }
+.whatsapp{
+
+position:fixed;
+
+bottom:25px;
+
+left:25px;
+
+width:65px;
+
+height:65px;
+
+background:#25D366;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+font-size:30px;
+
+border-radius:50%;
+
+color:white;
+
+box-shadow:0 10px 25px rgba(0,0,0,.3);
+
+transition:.3s;
+
+z-index:9999;
+
+}
+
+.whatsapp:hover{
+
+transform:scale(1.1);
+
+}  
 
 }
