@@ -1,167 +1,94 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>cobra.dz</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COBRA | تصميم مواقع وتسويق إلكتروني</title>
 
-<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&display=swap" rel="stylesheet">
+    <meta name="description" content="COBRA - تصميم مواقع إلكترونية احترافية وخدمات التسويق الإلكتروني في الجزائر">
 
-<style>
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:'Cairo',sans-serif;
-}
+    <link rel="stylesheet" href="style.css">
 
-body{
-background:#0f172a;
-color:#fff;
-}
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800&display=swap" rel="stylesheet">
 
-header{
-padding:20px 8%;
-display:flex;
-justify-content:space-between;
-align-items:center;
-background:#111827;
-}
-
-.logo{
-font-size:30px;
-font-weight:bold;
-color:#00d4ff;
-}
-
-nav a{
-color:white;
-text-decoration:none;
-margin:0 15px;
-}
-
-.hero{
-height:90vh;
-display:flex;
-justify-content:center;
-align-items:center;
-text-align:center;
-padding:20px;
-}
-
-.hero h1{
-font-size:55px;
-margin-bottom:20px;
-}
-
-.hero p{
-font-size:22px;
-color:#ddd;
-margin-bottom:30px;
-}
-
-.btn{
-display:inline-block;
-padding:15px 35px;
-background:#00d4ff;
-color:#000;
-text-decoration:none;
-border-radius:30px;
-font-weight:bold;
-}
-
-.services{
-padding:80px 8%;
-background:#111827;
-}
-
-.services h2{
-text-align:center;
-margin-bottom:40px;
-font-size:40px;
-}
-
-.cards{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:20px;
-}
-
-.card{
-background:#1e293b;
-padding:30px;
-border-radius:15px;
-text-align:center;
-transition:.3s;
-}
-
-.card:hover{
-transform:translateY(-10px);
-}
-
-footer{
-padding:30px;
-text-align:center;
-background:#020617;
-}
-</style>
-
+    <script src="https://kit.fontawesome.com/6d2ea823d0.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
 <header>
 
+<nav class="navbar">
+
 <div class="logo">
-cobra.dz
+🐍 COBRA
 </div>
 
-<nav>
-<a href="#">الرئيسية</a>
-<a href="#">الخدمات</a>
-<a href="#">الأعمال</a>
-<a href="#">تواصل</a>
+<ul>
+
+<li><a href="#">الرئيسية</a></li>
+
+<li><a href="#services">الخدمات</a></li>
+
+<li><a href="#portfolio">أعمالنا</a></li>
+
+<li><a href="#contact">تواصل معنا</a></li>
+
+</ul>
+
 </nav>
 
 </header>
 
 <section class="hero">
 
-<div>
+<div class="hero-content">
 
-<h1>مرحبًا بك في cobra.dz</h1>
+<h1>صمم مستقبلك الرقمي مع COBRA</h1>
 
 <p>
-نقدم خدمات رقمية احترافية بأحدث التقنيات.
+
+نساعد الشركات ورواد الأعمال على إنشاء مواقع إلكترونية احترافية
+وتطوير حضورهم الرقمي من خلال التسويق الإلكتروني.
+
 </p>
 
-<a class="btn" href="#">
-اطلب خدمتك الآن
+<a href="#contact" class="btn">
+ابدأ مشروعك
 </a>
 
 </div>
 
 </section>
 
-<section class="services">
+<section id="services" class="services">
 
 <h2>خدماتنا</h2>
 
 <div class="cards">
 
 <div class="card">
+<i class="fas fa-laptop-code"></i>
 <h3>تصميم المواقع</h3>
-<p>تصميم مواقع احترافية متجاوبة.</p>
+<p>
+مواقع احترافية متجاوبة وسريعة.
+</p>
 </div>
 
 <div class="card">
-<h3>برمجة الويب</h3>
-<p>تطوير مواقع وأنظمة حديثة.</p>
-</div>
-
-<div class="card">
+<i class="fas fa-bullhorn"></i>
 <h3>التسويق الإلكتروني</h3>
-<p>إدارة الحملات الإعلانية.</p>
+<p>
+إدارة الحملات الإعلانية وتحسين الظهور.
+</p>
+</div>
+
+<div class="card">
+<i class="fas fa-chart-line"></i>
+<h3>SEO</h3>
+<p>
+رفع ترتيب موقعك في نتائج Google.
+</p>
 </div>
 
 </div>
@@ -170,9 +97,17 @@ cobra.dz
 
 <footer>
 
-© 2026 cobra.dz
+<p>
+
+© 2026 COBRA جميع الحقوق محفوظة
+
+</p>
 
 </footer>
 
+<script src="script.js"></script>
+
 </body>
+
+</html>
 </html>
